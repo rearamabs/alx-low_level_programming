@@ -6,15 +6,15 @@
  *
  */
 int main(void)
-{       
-        int num_1, num_2;
+{
+	int num_1, num_2;
 
-        num_1 = '0';
-        num_2 = '0';
-        
-        while (num_1 <= '9')
+	num_1 = '0';
+	num_2 = '0';
+
+	while (num_1 <= '9')
 	{
-		while (num_2 <= '9')
+		while (num_2 <= '8')
 		{
 			if (num_1 < num_2)
 			{
@@ -29,6 +29,7 @@ int main(void)
 			num_2++;
 		}
 		num_1++;
+		num_2 = 0;
 	}
 	putchar('\n');
 	return (0);
