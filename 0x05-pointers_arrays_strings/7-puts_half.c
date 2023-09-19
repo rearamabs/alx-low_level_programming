@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * puts_half - function
+ * puts_half - function name
  * @str: function parameter
  */
 void puts_half(char *str)
